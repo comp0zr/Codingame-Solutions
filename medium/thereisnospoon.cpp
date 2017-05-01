@@ -91,11 +91,9 @@ int main()
                 right[1] = -1;
                 endLoop = true;
             }
-
             cout << current[0] << ' ' << current[1] << ' ' << right[0] << ' ' 
                  << right[1] << ' ' << bottom[0] << ' ' << bottom[1] << endl;  
-        }
-        
+        }        
         if(i + 1 == lines.size()) break;
     }    
 }
