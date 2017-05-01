@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 string Numbers(string a, string b)
 {
     unsigned long long num_a = stoull(a);
